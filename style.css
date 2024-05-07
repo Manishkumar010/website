@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.welcome {
+  display: flex;
+  font: 25px;
+  justify-content: center;
+  background-color: #fffff0;
+  color: #101720;
+}
+
+/* header section style start */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #101720;
+}
+
+.con-home {
+  padding: 10px;
+}
+
+.con-title {
+  padding-left: 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: 1s ease;
+}
+
+.con-title:hover {
+  font-size: 33px;
+  color: #fffff0;
+  transition: .5s;
+  color: khaki;
+}
+
+.con-ul {
+  display: flex;
+  align-items: center;
+}
+
+.con-ul li {
+  list-style: none;
+  display: inline;
+  justify-content: center;
+  padding: 0px 40px 0px 0;
+
+}
+
+.con-ul li a {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fffff0;
+  transition: 0.5s ease;
+
+}
+
+.con-ul li a:hover {
+  color: khaki;
+  font-size: 17px;
+
+}
+
+/* header section end now */
+
+/* footer start now  */
+
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001531;
+}
+
+.new h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fffff0;
+}
+
+footer {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+footer .img {
+  padding: 20px;
+  display: inline-block;
+  border: 2px solid red;
+  box-shadow: 20px 20px 30px green;
+}
+
+footer .img:hover {
+  width: 350px;
+  height: 270px;
+  /* border: 5px solid yellow; */
+  border: none;
+  filter: drop-shadow(10px 10px 20px rgb(0, 76, 191));
+}
+
+/* image about section here  */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .con-img {
+  background-image: url(computer-the-room-hacker-the-world-at-night-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid red;
+  padding: 15px;
+  width: 100%;
+  height: 500px;
+}
+
+.content .con-p {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  display: block;
+}
+
+.content .con-p h1 {
+  font-size: 50px;
+  padding: 20px 0 20px 120px;
+  background-color: #101720;
+  color: #fffff0;
+  font-weight: 800;
+
+}
+
+.content .con-p p {
+  height: 80%;
+  font-size: 20px;
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 119, 119);
+  color: #fffff0;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.content .con-img2 {
+  background-image: url(bmw-japan-car-black-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid red;
+  padding: 15px;
+  width: 100%;
+  height: 500px;
+}
+#social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+ /* background-color: #001531; */
+}
+#social .social{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+cursor: pointer;
+}
+#social .social:hover{
+  transition: 0.3S;
+  width: 50px;
+  height: 50px;
+
+}
+#social h3{
+  color:#101720;
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 20px;
+}
